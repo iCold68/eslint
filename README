@@ -1,4 +1,4 @@
-## Instalando Lint
+# Instalando Lint
 Linters analisam a sintaxe do código e garantem consistência ao aplicar regras de estilo personalizadas ou pré-definidas. Não é necessário, mas é de grande ajuda.
 
 ### Instalando um Lint.
