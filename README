@@ -1,0 +1,27 @@
+## Instalando Lint
+Linters analisam a sintaxe do código e garantem consistência ao aplicar regras de estilo personalizadas ou pré-definidas. Não é necessário, mas é de grande ajuda.
+
+### Instalando um Lint.
+
+Instale o pacote ESLint dentro do diretório do seu projeto.
+```js
+npm i --save-dev eslint
+```
+
+### Configurando regras ESLint
+ Crie o arquivo ```.eslintrc.json``` no diretório do projeto e insira o código que está no arquivo deste respositório ou baixe o mesmo.
+
+Os principais aspectos dessa configuração no .eslintrc.json são:
+
+* Permitir console.log() para facilitar a depuração.
+* Preferir const e let em vez de var, além de proibir a declaração de variáveis com nomes conflitantes.
+* Impedir variáveis duplicadas em callbacks para evitar ambiguidades.
+* Usar aspas simples ao invés de aspas duplas.
+* Exigir ponto e vírgula no final das instruções, seguindo práticas recomendadas.
+* Manter propriedades de acesso na mesma linha para maior legibilidade.
+* Configurar recuo com tabulação (tabs) para padronização.
+* Limitar retornos de chamada aninhados a no máximo 4 níveis, incentivando a refatoração do código para evitar complexidade excessiva.
+
+Essas regras ajudam a manter um código mais limpo, consistente e alinhado às melhores práticas.
+
+Caso não goste você pode acessar a documentação do [ESLint](https://eslint.org/docs/latest/rules/), localize as regras desejadas e ajuste-as conforme sua preferência.
